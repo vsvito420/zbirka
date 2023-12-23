@@ -48,7 +48,7 @@ resource "proxmox_virtual_environment_container" "ubuntu_container" {
 resource "proxmox_virtual_environment_file" "ubuntu_container_template" {
   content_type = "vztmpl"
   datastore_id = "local"
-  node_name    = "first-node"
+  node_name    = "pve"
 
   source_file {
     path = "http://download.proxmox.com/images/system/ubuntu-20.04-standard_20.04-1_amd64.tar.gz"
