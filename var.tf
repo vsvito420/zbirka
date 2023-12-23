@@ -9,3 +9,7 @@ variable "zone_id" {
 variable "domain" {
     default = "skolan.icu"
 }
+
+variable "proxmox_password" {
+   type = string
+}
