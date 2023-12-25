@@ -1,12 +1,3 @@
-terraform {
-  required_providers {
-    proxmox = {
-      source = "bpg/proxmox"
-      version = "0.42.0"
-    }
-  }
-}
-
 provider "proxmox" {
   endpoint = "https://192.168.50.87:8006/"
   username = "root@pam"
